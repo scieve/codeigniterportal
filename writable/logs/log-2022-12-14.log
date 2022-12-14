@@ -1,0 +1,12 @@
+CRITICAL - 2022-12-14 09:09:57 --> Class 'Kint\Kint' not found
+#0 /home/scieve/codeigniterportal/system/CodeIgniter.php(224): require_once()
+#1 /home/scieve/codeigniterportal/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /home/scieve/codeigniterportal/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /home/scieve/codeigniterportal/spark(44): require('/home/scieve/co...')
+#4 {main}
+CRITICAL - 2022-12-14 09:11:10 --> Class 'Kint\Kint' not found
+#0 /home/scieve/codeigniterportal/system/CodeIgniter.php(224): require_once()
+#1 /home/scieve/codeigniterportal/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /home/scieve/codeigniterportal/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /home/scieve/codeigniterportal/spark(44): require('/home/scieve/co...')
+#4 {main}
