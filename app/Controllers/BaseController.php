@@ -27,6 +27,7 @@ class BaseController extends Controller
 	 * @var array
 	 */
 	protected $helpers = [];
+	protected $session;
 
 	/**
 	 * Constructor.
@@ -41,6 +42,9 @@ class BaseController extends Controller
 		//--------------------------------------------------------------------
 		// E.g.:
 		// $this->session = \Config\Services::session();
+		if(session_status() == PHP_SESSION_NONE){
+			$this->session = \Config\Services::session();
+		}
 	}
 
 }

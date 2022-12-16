@@ -14,8 +14,12 @@ class UserModel extends Model
 
 
     //Método GET
-    public function getUsuarios($user, $senha)
+    public function getUser($user, $senha)
     {
+        // var_dump($user);
+        // var_dump($senha);
+        // exit;
+        
         return $this->asArray()
             ->where(['usuario' => $user, 'senha' => md5($senha)])
             ->first();
